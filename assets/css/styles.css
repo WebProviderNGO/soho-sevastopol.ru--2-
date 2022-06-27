@@ -1,0 +1,64 @@
+@import "uikit-reset.css";
+@import "responsive.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+
+html {
+    --PrimaryColor: #B1000D;
+    --SecondaryColor: #1779ba;
+    background-color: black;
+    color: #ddd;
+}
+
+html,
+.uk-navbar-nav>li>a,
+.uk-button,
+.uk-h5 {
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 20px;
+}
+
+.uk-h2,
+.uk-h4,
+h5 {
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+.uk-navbar-transparent .uk-button-text {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+h5,
+.uk-navbar-transparent .uk-button-text:hover {
+    color: white;
+}
+
+footer .uk-h5 {
+    text-transform: uppercase;
+    color: var(--PrimaryColor);
+    font-weight: 600;
+}
+
+footer .uk-link-text a,
+footer .uk-subnav>*> :first-child {
+    color: white;
+}
+
+footer .uk-link-text a:hover,
+footer .uk-subnav>*:hover> :first-child {
+    color: var(--PrimaryColor);
+}
+
+footer svg {
+    width: 25px;
+    height: 25px;
+    fill: #fff;
+}
+
+footer svg:hover {
+    fill: var(--PrimaryColor);
+}
+
+.uk-offcanvas-bar .uk-legend {
+    color: var(--PrimaryColor);
+}

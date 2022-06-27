@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Hello, world!</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.14.3/css/uikit.min.css">
+    <link href="assets/css/styles.css" rel="stylesheet">
+    <link href="assets/css/uikit-reset.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+    <!-- <script async src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+    <!-- <script async src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.slim.js"></script> -->
+    <link rel="icon" type="image/svg+xml" sizes="any" href="favicon.svg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div
+        uk-sticky="start: 200; animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky uk-light; cls-inactive: uk-navbar-transparent uk-light">
+
+        <nav class="uk-navbar-container uk-padding-small uk-padding-remove-horizontal">
+            <div class="uk-container uk-container-xlarge">
+                <div uk-navbar>
+                    <div class="uk-navbar-center">
+                        <div class="uk-navbar-center-left uk-visible@m">
+                            <div>
+                                <ul class="uk-navbar-nav">
+                                    <li><a href="about.html"><span class="uk-button-text">О нас</span></a></li>
+                                    <li><a href="anons.html"><span class="uk-button-text">Анонсы</span></a></li>
+                                    <li><a href="gallery.html"><span class="uk-button-text">Галерея</span></a></li>
+                                    <li><a href="otchet.html"><span class="uk-button-text">Отчёты</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="uk-navbar-center-left uk-hidden@m">
+                            <div>
+                                <ul class="uk-navbar-nav">
+                                    <li><a href=""><span class="uk-button-text uk-text-primary"
+                                                uk-toggle="target: #offcanvasRezers">Резерв</span></a></li>
+                                    <li><a href="tel:+79785774000"><span class="uk-icon-button"
+                                                uk-icon="receiver"></span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <a class="uk-navbar-item uk-logo" href="index.html"><img src="assets/images/logo-mini.png" alt=""></a>
+                        <div class="uk-navbar-center-right uk-visible@m">
+                            <div>
+                                <ul class="uk-navbar-nav">
+                                    <li><a href="menu.html"><span class="uk-button-text">Меню</span></a></li>
+                                    <li><a href="achii.html"><span class="uk-button-text">Акции</span></a></li>
+                                    <li><a href="contact.html"><span class="uk-button-text">Контакты</span></a></li>
+                                    <li><a href=""><span class="uk-button-text uk-text-primary"
+                                                uk-toggle="target: #offcanvasRezers">Резерв</span></a></li>
+                                    <li><a href="tel:+79785774000"><span class="uk-icon-button"
+                                                uk-icon="receiver"></span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-position-right uk-overlay uk-hidden@m"><button class="uk-navbar-toggle"
+                        uk-navbar-toggle-icon uk-toggle="target: #offcanvas-nav-primary"></button></div>
+            </div>
+        </nav>
+    </div>
+
+    <div id="offcanvas-nav-primary" uk-offcanvas="overlay: true">
+        <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+
+            <a class="uk-navbar-item uk-logo" href="index.html"><img src="assets/images/logo-mini.png" alt=""></a>
+
+            <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+                <li><a href="about.html"><span class="uk-button-text">О нас</span></a></li>
+                <li><a href="anons.html"><span class="uk-button-text">Анонсы</span></a></li>
+                <li><a href="gallery.html"><span class="uk-button-text">Галерея</span></a></li>
+                <li><a href="otchet.html"><span class="uk-button-text">Отчёты</span></a></li>
+                <li><a href="menu.html"><span class="uk-button-text">Меню</span></a></li>
+                <li><a href="achii.html"><span class="uk-button-text">Акции</span></a></li>
+                <li><a href="contact.html"><span class="uk-button-text">Контакты</span></a></li>
+            </ul>
+
+        </div>
+    </div>
+
+    <div class="uk-section uk-section-secondary uk-section-large">
+        <div class="uk-container uk-container-expand">
+            <div uk-grid>
+                <div class="uk-width-1-1 uk-text-center">
+                    <h2 class="uk-h2"><small>00 месяц</small><br> Lorem ipsum dolor sit amet</h2>
+                </div>
+            </div>
+            <div class="uk-child-width-1-2 uk-child-width-1-4@s uk-grid-small uk-margin-medium-top" uk-grid uk-lightbox>
+                <div>
+                    <a href="content/card.jpg"><img src="content/card.jpg" alt=""></a>
+                </div>
+                <div>
+                    <a href="content/card.jpg"><img src="content/card.jpg" alt=""></a>
+                </div>
+                <div>
+                    <a href="content/card.jpg"><img src="content/card.jpg" alt=""></a>
+                </div>
+                <div>
+                    <a href="content/card.jpg"><img src="content/card.jpg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="uk-padding-large uk-padding-remove-horizontal">
+        <div class="uk-container uk-container-xlarge">
+            <div uk-grid>
+                <div class="uk-width-1-2@s uk-width-1-4@m">
+                    <h4 class="uk-h5">Контакты</h4>
+                    <ul class="uk-list">
+                        <li>Россия, г. Севастополь, ул. Ленина, 55</li>
+                        <li><a href="" class="uk-link-reset">+7 (978) 577-40-00</a></li>
+                        <li>Чт — Сб 18:00 — 01:00</li>
+                    </ul>
+                </div>
+                <div class="uk-width-1-2 uk-width-1-4@m">
+                    <h4 class="uk-h5">SOHO Sevastopol</h4>
+                    <ul class="uk-list uk-link-text">
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Анонсы</a></li>
+                        <li><a href="#">Галерея</a></li>
+                        <li><a href="#">Отчёты</a></li>
+                    </ul>
+                </div>
+                <div class="uk-width-1-2 uk-width-1-4@m">
+                    <h4 class="uk-h5">Предлагаем</h4>
+                    <ul class="uk-list uk-link-text">
+                        <li><a href="#">Меню</a></li>
+                        <li><a href="#">Акции</a></li>
+                        <li><a href="#">Резерв</a></li>
+                    </ul>
+                </div>
+                <div class="uk-width-1-2@s uk-width-1-4@m">
+                    <h4 class="uk-h5">Ссылки</h4>
+                    <ul class="uk-subnav">
+                        <li>
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <path
+                                        d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512">
+                                    <path
+                                        d="M153.1 315.8L65.7 512H2l96-209.8c-45.1-22.9-75.2-64.4-75.2-141.1C22.7 53.7 90.8 0 171.7 0H254v512h-55.1V315.8h-45.8zm45.8-269.3h-29.4c-44.4 0-87.4 29.4-87.4 114.6 0 82.3 39.4 108.8 87.4 108.8h29.4V46.5z" />
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="uk-background-secondary uk-padding-small uk-padding-remove-horizontal">
+        <div class="uk-container uk-container-xlarge">
+            <div uk-grid>
+                <div>© 2022 SOHO Sevastopol</div>
+            </div>
+        </div>
+    </div>
+
+    <div id="offcanvasRezers" uk-offcanvas="overlay: true">
+        <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+
+            <form>
+                <fieldset class="uk-fieldset">
+
+                    <legend class="uk-legend">Забронировать стол</legend>
+
+                    <div class="uk-margin">
+                        <input class="uk-input" type="text" placeholder="Имя*">
+                    </div>
+                    <div class="uk-margin">
+                        <input class="uk-input" type="tel" placeholder="Телефон*">
+                    </div>
+                    <div class="uk-margin">
+                        <label class="uk-form-label" for="form-stacked-text">Дата*</label>
+                        <input class="uk-input" type="date" placeholder="Дата*">
+                    </div>
+                    <div class="uk-grid-small" uk-grid>
+                        <div class="uk-width-1-2">
+                            <label class="uk-form-label" for="form-stacked-text">Время*</label>
+                            <input class="uk-input" type="time" placeholder="Время*">
+                        </div>
+                        <div class="uk-width-1-2">
+                            <label class="uk-form-label" for="form-stacked-text">Гостей*</label>
+                            <input class="uk-input" type="number" min="1" max="10" value="1">
+                        </div>
+                    </div>
+                    <div class="uk-margin">
+                        <textarea class="uk-textarea" rows="5" placeholder="Комментарий"></textarea>
+                    </div>
+                    <button class="uk-button uk-button-primary uk-width-1-1">Отправить</button>
+
+                </fieldset>
+            </form>
+
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.14.3/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.14.3/js/uikit-icons.min.js"></script>
+    <link rel="stylesheet" href="assets/css/app.css">
+    <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>

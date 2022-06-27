@@ -1,0 +1,138 @@
+[uk-lightbox] a {
+    cursor: zoom-in;
+}
+
+.uk-light .uk-navbar-toggle {
+    color: white;
+}
+
+.uk-button-text {
+    color: var(--PrimaryColor);
+}
+
+.uk-button-text:hover {
+    color: white;
+}
+
+.uk-button-text::before {
+    border-bottom: 2px solid white;
+}
+
+.uk-light .uk-button-text::before {
+    border-bottom: 2px solid var(--PrimaryColor);
+}
+
+.uk-light .uk-icon-button {
+    background: transparent;
+    border: 1px solid var(--PrimaryColor);
+    color: var(--PrimaryColor);
+}
+
+.uk-light .uk-icon-button:hover,
+.uk-light .uk-icon-button:active {
+    background-color: var(--PrimaryColor);
+    color: black;
+}
+
+.uk-text-primary,
+.uk-light .uk-text-primary,
+.uk-section-secondary:not(.uk-preserve-color) .uk-text-primary {
+    color: var(--PrimaryColor) !important;
+}
+
+.uk-navbar-container:not(.uk-navbar-transparent) {
+    background: black;
+}
+
+.uk-h2,
+.uk-section-secondary:not(.uk-preserve-color) .uk-h2,
+.uk-section-secondary:not(.uk-preserve-color) .uk-h4 {
+    color: var(--PrimaryColor);
+}
+
+.uk-heading-divider,
+.uk-section-secondary:not(.uk-preserve-color) .uk-heading-divider {
+    border-bottom: calc(.4px + .05em) solid var(--PrimaryColor);
+}
+
+.uk-card-default {
+    background-color: transparent;
+    color: white;
+    box-shadow: none;
+}
+
+.uk-button {
+    text-transform: none;
+    border-radius: 500px;
+    font-weight: 500;
+}
+
+.uk-section-secondary:not(.uk-preserve-color) .uk-button-default {
+    color: var(--PrimaryColor);
+    border-color: var(--PrimaryColor);
+}
+
+.uk-section-secondary:not(.uk-preserve-color) .uk-button-default:hover {
+    background-color: var(--PrimaryColor);
+    color: black;
+    border-color: var(--PrimaryColor);
+}
+
+.uk-offcanvas-bar .uk-button-primary,
+.uk-section-secondary:not(.uk-preserve-color) .uk-button-primary {
+    background-color: var(--PrimaryColor);
+    color: black;
+}
+
+.uk-offcanvas-bar .uk-button-primary:hover,
+.uk-section-secondary:not(.uk-preserve-color) .uk-button-primary:hover {
+    background-color: transparent;
+    color: var(--PrimaryColor);
+    border-color: var(--PrimaryColor);
+}
+
+.uk-section-secondary:not(.uk-preserve-color) .uk-button-link {
+    color: var(--SecondaryColor);
+}
+
+.uk-section-secondary:not(.uk-preserve-color) .uk-button-link:hover {
+    color: rgba(23, 121, 186, 0.75);
+}
+
+.uk-section-secondary:not(.uk-preserve-color) .uk-button-secondary {
+    background-color: var(--SecondaryColor);
+    color: white;
+}
+
+.uk-button-default2,
+.uk-section-secondary:not(.uk-preserve-color) .uk-button-default2,
+.uk-section-secondary:not(.uk-preserve-color) .uk-button-secondary:hover {
+    background-color: transparent;
+    color: var(--SecondaryColor);
+    border-color: var(--SecondaryColor);
+}
+
+.uk-button-default2:hover,
+.uk-section-secondary:not(.uk-preserve-color) .uk-button-default2:hover {
+    background-color: var(--SecondaryColor);
+    color: white;
+    border-color: var(--SecondaryColor);
+}
+
+.uk-section-secondary:not(.uk-preserve-color) .uk-subnav-pill>.uk-active>a {
+    background-color: var(--SecondaryColor);
+    color: white;
+}
+
+.uk-section-secondary:not(.uk-preserve-color) .uk-subnav-pill > * > :first-child {
+    color: var(--SecondaryColor);
+}
+
+.uk-section-secondary:not(.uk-preserve-color) .uk-subnav-pill>*>a:hover {
+    background-color: rgba(23, 121, 186, 0.1);
+    color: white;
+}
+
+.uk-section-secondary:not(.uk-preserve-color) hr {
+    border-top-color: var(--PrimaryColor);
+}
